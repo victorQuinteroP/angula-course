@@ -9,6 +9,7 @@ import {ShoppingListService} from "../shopping-lis.service";
 export class ShoppingEditComponent {
   @ViewChild('nameInput') nameRef:ElementRef;
   @ViewChild('amountInput') amountRef:ElementRef;
+
   constructor(private slService:ShoppingListService) { }
 
   onAdded(){
